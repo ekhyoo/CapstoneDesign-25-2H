@@ -21,7 +21,7 @@
 |20|[스카이화](#team-20)| 초보 여행 유튜버(인플루언서)를 위한 틱톡, 유튜브의 트렌드를 분석하여 현재 여행 트렌드를 제공하고, 사용자가 업로드 할 영상을 분석하여 (맞춤형) 해시태그와 제목을 제공하는 모바일 어플리케이션
 |21|[투애니원](#team-21)| 예비 부모와 0~7세 자녀 부모를 위한 LLM·STT 기반 맞춤형 교육 및 연령별 육아 지원 서비스
 |22|[큐리호스(Curihous)](#team-22)| 복잡한 금융·공공 앱을 위한 사용자 맞춤형 UI 최적화 SDK
-|23|[졸업하고 싶조](#team-23)| Synchronizing Schedules Seamlessly: A Collaborative Web Application for Personal and Group Planning
+|23|[졸업하고 싶조](#team-23)| SSchedSync: Technology-Driven Real-Time Collaborative Scheduling Solution Using Web Frontend and Firebase Integration
 |24|[강배우](#team-24)| SNS, 웹서핑 등을 통해 유용한 정보를 휴대폰 스크린샷으로 저장해두고 잊어버리는 사용자(20~30대 디지털 네이티브 층)를 위해, 캡처된 정보를 카테고리별로 자동 분류·추천·알림해주는 AI 기반 스마트 정보 관리 및 활용 서비스
 |25|[바위너구리](#team-25)| 개인 생활패턴과 날씨를 고려해 청소 & 위생 루틴을 추천하는 AI 서비스
 |27|[용용](#team-27)| 청소년이 성에 대해 건강하고 올바르게 배울 수 있도록 돕는 AI 기반 성교육 서비스
@@ -319,12 +319,13 @@
 | (1) 과제명 |  Synchronizing Schedules Seamlessly: A Collaborative Web Application for Personal and Group Planning |
 |:---  |---  |
 | (2) 팀 번호/이름 | 23-졸업하고 싶조 |
-| (3) 구성원 | Makhmud Lailim(2171084): 리더,*역할,...* <br> Oskonbai kyzy Asema(2271099): 팀원,*역할,....* |
+| (3) 구성원 | Makhmud Lailim (2171084): Leader, project management, professor communication, reports, presentations, schedules, deliverables
+Oskonbai kyzy Asema (2271099): Member, frontend and backend development, web app implementation, demo preparation|
 | (4) 지도교수 | 심재형 교수 |
 | (5) 트랙  | 산학 |
 | (6) 과제 키워드 | Schedule, Social engagement, planning |
-| (7) 과제 내용 요약 |   |
-| (8) 주요 Link |  |
+| (7) 과제 내용 요약 | A collaborative web-based scheduler that allows multiple users to manage their own schedules, selectively share with friends, view shared schedules in real time, and propose or respond to group events. The app aims to address scheduling conflicts among busy students by providing group event suggestions and synchronization features. Built with React for the frontend and Firebase for backend services including authentication, database, and hosting.  |
+| (8) 주요 Link |  https://github.com/lailim200/wewannagraduate |
  
 <br>
  
