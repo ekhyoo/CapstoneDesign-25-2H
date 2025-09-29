@@ -2,8 +2,13 @@
 # List of Teams/Projects
 |팀번호|팀명|프로젝트|
 |:---|:---|:---|
+<<<<<<< HEAD
 |03|[노페인노게인](#team-03)| 청각장애인 대상 수어번역 진료 플랫폼
 |04|[Typha](#team-04)| 암표 근절을 위한 DID(분산 신원 증명) 및  NFT 기반 티켓팅 시스템
+=======
+|03|[노페인노게인](#team-03)| 청각장애인 대상 수어, 음성 번역 기반 대면+비대면 진료 서비스
+|04|[이데댕김](#team-04)| AI 기반 스마트 컨트랙트 취약점 분석 및 리포트 생성
+>>>>>>> upstream/main
 |06|[닌자토끼](#team-06)| 전통주 지식이 부족한 입문자들을 위해, 사용자의 주류 선호도를 학습하고 위치·시간 등의 맥락을 반영하여, 개인 맞춤형 전통주를 추천해주는 AI 기반의 전통주 큐레이션 서비스
 |07|[우주정복연구젝트](#team-07)| [Post-merger Masquerade] 은하 병합 여부를 분류하는 멀티모달 AI 모델 연구 개발
 |08|[드랍더8bit](#team-08)| 아이와 부모가 함께 동화를 만들어가는 인터랙티브한 방식의 AI 기반 동화 생성 프로그램
@@ -17,11 +22,11 @@
 |16|[배꽃엔딩](#team-16)| AI 기반 성분 분석 및 추천 알고리즘을 통해 편의점 가공식품을 사용자 조건에 맞게 분석·비교하고, 맞춤형 제품을 제안하는 개인 맞춤형 서비스
 |17|[그린데빌](#team-17)| 전자 의료 기록(EHR) 기반 질병 예측 모델의 Source-free domain adaptation 적용 및 성능 비교
 |18|[코드만두](#team-18)| AI 기반 음성 요약과 맞춤형 질문 제안, 생성형 티켓 디자인으로 공연 후기를 쉽게 기록하고 공유하는, 공연 마니아를 위한 디지털 티켓북
-|19|[카드메이트](#team-19)| 카드별 할인 및 혜택을 분석하여 사용자 위치 기반 최적의 할인 혜택을 제공하는 매장을 안내해주는 모바일 어플리케이션
+|19|[카드메이트](#team-19)| LLM을 활용해 카드별 할인 및 혜택을 분석하여 사용자 위치 기반 최적의 혜택 제공 매장을 안내해주는 모바일 어플리케이션
 |20|[스카이화](#team-20)| 초보 여행 유튜버(인플루언서)를 위한 틱톡, 유튜브의 트렌드를 분석하여 현재 여행 트렌드를 제공하고, 사용자가 업로드 할 영상을 분석하여 (맞춤형) 해시태그와 제목을 제공하는 모바일 어플리케이션
 |21|[투애니원](#team-21)| 예비 부모와 0~7세 자녀 부모를 위한 LLM·STT 기반 맞춤형 교육 및 연령별 육아 지원 서비스
 |22|[큐리호스(Curihous)](#team-22)| 복잡한 금융·공공 앱을 위한 사용자 맞춤형 UI 최적화 SDK
-|23|[졸업하고 싶조](#team-23)| Synchronizing Schedules Seamlessly: A Collaborative Web Application for Personal and Group Planning
+|23|[졸업하고 싶조](#team-23)| SSchedSync: Technology-Driven Real-Time Collaborative Scheduling Solution Using Web Frontend and Firebase Integration
 |24|[강배우](#team-24)| SNS, 웹서핑 등을 통해 유용한 정보를 휴대폰 스크린샷으로 저장해두고 잊어버리는 사용자(20~30대 디지털 네이티브 층)를 위해, 캡처된 정보를 카테고리별로 자동 분류·추천·알림해주는 AI 기반 스마트 정보 관리 및 활용 서비스
 |25|[바위너구리](#team-25)| 개인 생활패턴과 날씨를 고려해 청소 & 위생 루틴을 추천하는 AI 서비스
 |27|[용용](#team-27)| 청소년이 성에 대해 건강하고 올바르게 배울 수 있도록 돕는 AI 기반 성교육 서비스
@@ -34,12 +39,12 @@
 | (1) 과제명 |  청각장애인 대상 수어번역 진료 플랫폼 |
 |:---  |---  |
 | (2) 팀 번호/이름 | 03-노페인노게인 |
-| (3) 구성원 | 최수희(2271104) : 리더,*역할,...* <br> 이하은(2276253): 팀원,*역할,....* <br> 구혜준(2276019): 팀원,*역할,....* |
+| (3) 구성원 | 최수희(2271104) : 리더, 백엔드/AI <br> 이하은(2276253): 팀원, 프론트 <br> 구혜준(2276019): 팀원, 프론트/백/AI |
 | (4) 지도교수 | 심재형 교수 |
 | (5) 트랙  | 산학 |
-| (6) 과제 키워드 | 수어 인식, 대면+비대면 진료, 배리어 프리 |
-| (7) 과제 내용 요약 |   |
-| (8) 주요 Link |  |
+| (6) 과제 키워드 | 수어 통역, STT, 대면+비대면 진료, 배리어 프리 |
+| (7) 과제 내용 요약 |  handDoc은 수어와 음성을 텍스트로 변환하는 기술을 활용하여, 청각장애인의 대면 진료와 비대면 진료 모두에서 보다 편리하게 소통할 수 있도록 돕는 서비스입니다. </br> </br> 1. 수어를 사용하는 청각장애인의 수어를 인식하여 텍스트로 변환합니다. </br> 2. 수어 외에도 음성 발화를 활용하는 청각장애인의 구음을 텍스트로 변환합니다. </br> 3. 진료 과정에서 오간 수어와 음성 대화를 텍스트로 정리하고 요약하여 제공합니다. |
+| (8) 주요 Link | https://github.com/3-NoPainNoGain/.github |
  
 <br>
  
@@ -256,15 +261,15 @@
 [Return TOP](#list-of-teamsprojects)
  
 # Team-19
-| (1) 과제명 |  카드별 할인 및 혜택을 분석하여 사용자 위치 기반 최적의 할인 혜택을 제공하는 매장을 안내해주는 모바일 어플리케이션 |
+| (1) 과제명 |  LLM을 활용해 카드별 할인 및 혜택을 분석하여 사용자 위치 기반 최적의 혜택 제공 매장을 안내해주는 모바일 어플리케이션 |
 |:---  |---  |
 | (2) 팀 번호/이름 | 19-카드메이트 |
-| (3) 구성원 | 배윤아(2171017): 리더,*역할,...* <br> 김연수(2316007): 팀원,*역할,....* <br> 윤소민(2217024): 팀원,*역할,....* |
+| (3) 구성원 | 배윤아(2171017): 리더, 프론트엔드 <br> 김연수(2316007): 팀원, 백엔드 <br> 윤소민(2217024): 팀원, 백엔드 |
 | (4) 지도교수 | 심재형 교수 |
 | (5) 트랙  | 산학 |
 | (6) 과제 키워드 | 카드 혜택, 위치 기반, 할인, 적립 |
-| (7) 과제 내용 요약 |   |
-| (8) 주요 Link |  |
+| (7) 과제 내용 요약 | - 사용자가 보유한 카드들의 혜택(할인·포인트·캐시백·프로모션)을 통합·정리 <br> - 위치 기반 추천을 통해 카드 혜택을 받을 수 있는 주변 매장을 안내 <br> - 보유한 카드 중 사용자가 이용할 매장에서 카드 혜택을 가장 많이 받을 수 있는 카드 추천 <br> - 사용자 카드 사용 내역을 기반으로 자주 가는 매장 정보를 수집하여 개인화된 추천 정보 제공 |
+| (8) 주요 Link | [기능 설명 및 Ground Rules](https://github.com/CardMates/WiseCard) |
  
 <br>
  
@@ -319,12 +324,13 @@
 | (1) 과제명 |  Synchronizing Schedules Seamlessly: A Collaborative Web Application for Personal and Group Planning |
 |:---  |---  |
 | (2) 팀 번호/이름 | 23-졸업하고 싶조 |
-| (3) 구성원 | Makhmud Lailim(2171084): 리더,*역할,...* <br> Oskonbai kyzy Asema(2271099): 팀원,*역할,....* |
+| (3) 구성원 | Makhmud Lailim (2171084): Leader, project management, professor communication, reports, presentations, schedules, deliverables
+Oskonbai kyzy Asema (2271099): Member, frontend and backend development, web app implementation, demo preparation|
 | (4) 지도교수 | 심재형 교수 |
 | (5) 트랙  | 산학 |
 | (6) 과제 키워드 | Schedule, Social engagement, planning |
-| (7) 과제 내용 요약 |   |
-| (8) 주요 Link |  |
+| (7) 과제 내용 요약 | A collaborative web-based scheduler that allows multiple users to manage their own schedules, selectively share with friends, view shared schedules in real time, and propose or respond to group events. The app aims to address scheduling conflicts among busy students by providing group event suggestions and synchronization features. Built with React for the frontend and Firebase for backend services including authentication, database, and hosting.  |
+| (8) 주요 Link |  https://github.com/lailim200/wewannagraduate |
  
 <br>
  
