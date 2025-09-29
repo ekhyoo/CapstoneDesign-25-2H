@@ -11,7 +11,7 @@
 |10|[2ys](#team-10)| Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT          (산업용 IoT에서 보안상 안전하고 에너지 효율성을 최적화하여 실시간 작업 수행을 가능하게 하는 프레임워크)
 |11|[DevEwha](#team-11)| Serverless Architecture를 이용한 실시간 AI 추론 최적화
 |12|[내가그린](#team-12)| AI를 활용하여 소도시 여행 추천과 지역 축제 정보를 제공하고, 소상공인들의 온/오프라인 판매를 돕는 통합 모바일 플랫폼
-|13|[e시크](#team-13)| 프랜차이즈 베이커리 가맹점의 POS 데이터를 활용한 품목별 수요 예측 시스템 개발
+|13|[e시크](#team-13)| 소상공인을 위한 머신러닝 기반 베이커리 수요예측 시스템 - 품절, 폐기 문제 해결
 |14|[team329](#team-14)| Overcoming Missing Modalities with Clustering: A Cross-Attention and Federated Learning Approach
 |15|[GRAD](#team-15)| 일정 관리가 어려운 사람들을 위한 개인 맞춤 대학 생활 AI 비서<br><br>
 |16|[배꽃엔딩](#team-16)| AI 기반 성분 분석 및 추천 알고리즘을 통해 편의점 가공식품을 사용자 조건에 맞게 분석·비교하고, 맞춤형 제품을 제안하는 개인 맞춤형 서비스
