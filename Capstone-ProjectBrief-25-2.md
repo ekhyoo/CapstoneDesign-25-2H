@@ -7,7 +7,7 @@
 |06|[닌자토끼](#team-06)| 전통주 소비 입문자를 위한 AI 기반 전통주 큐레이션 서비스
 |07|[우주정복연구젝트](#team-07)| Image-Exclusive Model for Galaxy Merger Classification: Training on Simulations and Inference on Observations
 |08|[드랍더8bit](#team-08)| 아이와 부모가 함께 동화를 만들어가는 인터랙티브한 방식의 AI 기반 동화 생성 프로그램
-|09|[구르미](#team-09)| 소규모 스타트업이나 연구실의 클라우드 사용 시 발생하는 높은 비용 문제와 중앙 집중식 클라우드의 장애 및 확장성 문제를 해결하기 위해, 개인이 가진 유휴 자원을 서로 연결하여 저비용으로 운영 가능한 '뮤추얼 클라우드' 시스템을 설계하고 구현
+|09|[구르미](#team-09)| P2P 기반 분산형 클라우드를 이용한 소규모 조직의 유휴 컴퓨팅 자원 공유 시스템(A P2P-based Distributed Cloud System for Sharing Idle Computing Resources in Small-scale Organizations)
 |10|[2ys](#team-10)| Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT          (산업용 IoT에서 보안상 안전하고 에너지 효율성을 최적화하여 실시간 작업 수행을 가능하게 하는 프레임워크)
 |11|[DevEwha](#team-11)| Serverless Architecture를 이용한 실시간 AI 추론 최적화
 |12|[내가그린](#team-12)| AI를 활용하여 소도시 여행 추천과 지역 축제 정보를 제공하고, 소상공인들의 온/오프라인 판매를 돕는 통합 모바일 플랫폼
@@ -106,15 +106,16 @@
 [Return TOP](#list-of-teamsprojects)
  
 # Team-09
-| (1) 과제명 |  소규모 스타트업이나 연구실의 클라우드 사용 시 발생하는 높은 비용 문제와 중앙 집중식 클라우드의 장애 및 확장성 문제를 해결하기 위해, 개인이 가진 유휴 자원을 서로 연결하여 저비용으로 운영 가능한 '뮤추얼 클라우드' 시스템을 설계하고 구현 |
+| (1) 과제명 |  P2P 기반 분산형 클라우드를 이용한 소규모 조직의 유휴 컴퓨팅 자원 공유 시스템(A P2P-based Distributed Cloud System for Sharing Idle Computing Resources in Small-scale Organizations)
+ |
 |:---  |---  |
 | (2) 팀 번호/이름 | 09-구르미 |
-| (3) 구성원 | 금채원(2276029): 리더,*역할,...* <br> 이서영(2276218): 팀원,*역할,....* <br> 송예린(2171023): 팀원,*역할,....* |
+| (3) 구성원 | 금채원(2276029): 팀장, 실험 환경 구축, 아키텍처 성능 실험, 문서화·산출물 관리<br> 이서영(2276218): 팀원, 아키텍처 설계 주도, 실험 환경 구축, 설계 검토·피드백<br> 송예린(2171023): 팀원, 실험 환경 구축, 기술 검증, 성능 분석, 블록체인 도입 검토|
 | (4) 지도교수 | 반효경 교수 |
 | (5) 트랙  | 연구 |
-| (6) 과제 키워드 | Mutual Cloud, Resource Sharing, P2P 네트워크, Cloud Cost Optimization |
-| (7) 과제 내용 요약 |   |
-| (8) 주요 Link |  |
+| (6) 과제 키워드 | Mutual Cloud, Resource Sharing, P2P 네트워크, DHT 네트워크 |
+| (7) 과제 내용 요약 | 클라우드 퍼스트의 비용·장애 확산 문제와 온프레미스(on-premise)의 과다 프로비저닝(over-provisioning) 간 격차를 해소하기 위해, 중앙 서버 없이 노드가 상태를 공유하고 작업을 자율적으로 탐색·분배·복구하는 **P2P 기반 Mutual Cloud 아키텍처**를 설계·구현한다. 이 방식은 단일 장애점(SPOF,Single Point of Failure)을 제거해 장애를 국소화하고, 조직 내 유휴 온프레미스 자원을 공유 풀로 묶어 활용률을 높이며 총소유비용(TCO,Total Cost of Ownership)를 낮춘다. 프로토타입과 시뮬레이션에서 네트워크가 커져도 지연·처리량의 안정성이 유지되고 부분 장애 시 빠르게 복구됨을 확인해, 소규모 조직에 경제적이고 안정적인 인프라 대안임을 입증한다.  |
+| (8) 주요 Link | **Github(코드):** https://github.com/Team-Gurumi/MC <br> **비교참고:** DAOnetes https://github.com/workbenchapp/daonetes|
  
 <br>
  
