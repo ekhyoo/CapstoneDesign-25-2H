@@ -4,9 +4,9 @@
 |:---|:---|:---|
 |03|[노페인노게인](#team-03)| 청각장애인 대상 수어/음성 텍스트 변환 대면+비대면 진료 서비스
 |04|[Typha](#team-04)| 암표 근절을 위한 DID(분산 신원 증명) 및 NFT 기반 티켓팅 시스템
-|06|[닌자토끼](#team-06)| 전통주 지식이 부족한 입문자들을 위해, 사용자의 주류 선호도를 학습하고 위치·시간 등의 맥락을 반영하여, 개인 맞춤형 전통주를 추천해주는 AI 기반의 전통주 큐레이션 서비스
-|07|[우주정복연구젝트](#team-07)| [Post-merger Masquerade] 은하 병합 여부를 분류하는 멀티모달 AI 모델 연구 개발
-|08|[드랍더8bit](#team-08)| 이미지 보정 AI로 아이의 그림을 캐릭터로 바꾸고, 부모와 함께 동화를 만들어가는 서비스
+|06|[닌자토끼](#team-06)| 전통주 소비 입문자를 위한 AI 기반 전통주 큐레이션 서비스
+|07|[우주정복연구젝트](#team-07)| Image-Exclusive Model for Galaxy Merger Classification: Training on Simulations and Inference on Observations
+|08|[드랍더8bit](#team-08)| 아이와 부모가 함께 동화를 만들어가는 인터랙티브한 방식의 AI 기반 동화 생성 프로그램
 |09|[구르미](#team-09)| 소규모 스타트업이나 연구실의 클라우드 사용 시 발생하는 높은 비용 문제와 중앙 집중식 클라우드의 장애 및 확장성 문제를 해결하기 위해, 개인이 가진 유휴 자원을 서로 연결하여 저비용으로 운영 가능한 '뮤추얼 클라우드' 시스템을 설계하고 구현
 |10|[2ys](#team-10)| Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT          (산업용 IoT에서 보안상 안전하고 에너지 효율성을 최적화하여 실시간 작업 수행을 가능하게 하는 프레임워크)
 |11|[DevEwha](#team-11)| Serverless Architecture를 이용한 실시간 AI 추론 최적화
