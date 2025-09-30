@@ -12,7 +12,7 @@
 |11|[DevEwha](#team-11)| Serverless Architecture를 이용한 실시간 AI 추론 최적화
 |12|[내가그린](#team-12)| AI를 활용하여 소도시 여행 추천과 지역 축제 정보를 제공하고, 소상공인들의 온/오프라인 판매를 돕는 통합 모바일 플랫폼
 |13|[e시크](#team-13)| 머신러닝 기반 베이커리 수요예측 시스템: Randy’s Donuts과의 공동 프로젝트
-|14|[team329](#team-14)| Overcoming Missing Modalities with Clustering: A Cross-Attention and Federated Learning Approach
+|14|[team329](#team-14)| AdaModal-Fed: 연합학습 환경에서 결손 모달리티를 극복하기 위한 클러스터링 및 크로스-어텐션 접근법
 |15|[GRAD](#team-15)| 일정 관리가 어려운 사람들을 위한 개인 맞춤 대학 생활 AI 비서<br><br>
 |16|[배꽃엔딩](#team-16)| 건강 관리가 필요한 소비자들을 위한, GPT-5 기반 맞춤형 가공식품 비교·추천 웹 서비스
 |17|[그린데빌](#team-17)| 전자 의료 기록(EHR) 기반 질병 예측 모델의 Source-free domain adaptation 적용 및 성능 비교
@@ -181,15 +181,15 @@
 [Return TOP](#list-of-teamsprojects)
  
 # Team-14
-| (1) 과제명 |  Overcoming Missing Modalities with Clustering: A Cross-Attention and Federated Learning Approach |
+| (1) 과제명 |  AdaModal-Fed: 연합학습 환경에서 결손 모달리티를 극복하기 위한 클러스터링 및 크로스-어텐션 접근법 |
 |:---  |---  |
 | (2) 팀 번호/이름 | 14-team329 |
-| (3) 구성원 | 이슬(2276225): 리더,*역할,...* <br> 김희진(2276095): 팀원,*역할,....* <br> 이혜리(2176310): 팀원,*역할,....* |
+| (3) 구성원 | 이슬(2276225): 리더, 주간 회의록과 의사결정 이력을 체계적으로 문서화하고, 이를 바탕으로 중간 및 최종 발표를 위한 보고서와 프레젠테이션, 시연 동영상을 제작하여 프로젝트 결과를 보고 <br> 김희진(2276095): 팀원, 결손 데이터(Missing Modality)' 및 'Non-IID' 문제 해결을 위한 최신 논문을 리뷰하고, 이를 바탕으로 팀원들과 전체 아키텍처를 브레인스토밍, MIMIC-CXR 데이터셋을 활용하여 로컬 학습 알고리즘을 구상, 계획 및 중간 발표 <br> 이혜리(2176310): 팀원, 아키텍처 구상 및 로컬 및 글로벌 모델의 학습 클래스를 설계, 실제 코드 테스트 진행. 기존 FL 시스템 사례를 분석하고 ROCO v2 데이터를 다운로드하여 모델 구조 개선, 계획 및 최종 발표 |
 | (4) 지도교수 | 이형준 교수 |
 | (5) 트랙  | 연구 |
-| (6) 과제 키워드 | ai, 연구, 연합학습 |
-| (7) 과제 내용 요약 |   |
-| (8) 주요 Link |  |
+| (6) 과제 키워드 | ai, 모달리티 결손, 연합학습, 클러스터링, cross-attention |
+| (7) 과제 내용 요약 |  본 'AdaModal-Fed' 프로젝트는 의료 환경에서 발생하는 **'결손 양상(missing modality)'** 문제를 데이터 프라이버시를 보장하는 **연합학습(Federated Learning) 환경**에서 해결하고자 합니다. <br> 이를 위해 데이터 분포와 결손 패턴에 따라 병원(클라이언트)을 그룹화하는 '클러스터링' 기법을 사용합니다. 또한, 모든 정보를 가진 모델의 지식을 부족한 모델에게 전달하는 **'지식 증류(Knowledge Distillation)' 방식과 , 이미지와 텍스트 정보를 효과적으로 통합하는 'Cross-Attention' 기술을 결합**합니다. 이러한 접근을 통해 여러 병원이 협력하여 데이터가 불완전한 상황에서도 진단 정확도가 높고 신뢰할 수 있는 AI 모델을 구축하는 것을 목표로 합니다. |
+| (8) 주요 Link | https://github.com/dew1107/team329.git |
  
 <br>
  
