@@ -5,7 +5,7 @@
 |03|[노페인노게인](#team-03)| 청각장애인 대상 수어, 음성 번역 기반 대면+비대면 진료 서비스
 |04|[Typha](#team-04)| 암표 근절을 위한 DID(분산 신원 증명) 및 NFT 기반 티켓팅 시스템
 |06|[닌자토끼](#team-06)| 전통주 지식이 부족한 입문자들을 위해, 사용자의 주류 선호도를 학습하고 위치·시간 등의 맥락을 반영하여, 개인 맞춤형 전통주를 추천해주는 AI 기반의 전통주 큐레이션 서비스
-|07|[우주정복연구젝트](#team-07)| [Post-merger Masquerade] 은하 병합 여부를 분류하는 멀티모달 AI 모델 연구 개발
+|07|[우주정복연구젝트](#team-07)| Image-Exclusive Model for Galaxy Merger Classification: Training on Simulations and Inference on Observations
 |08|[드랍더8bit](#team-08)| 아이와 부모가 함께 동화를 만들어가는 인터랙티브한 방식의 AI 기반 동화 생성 프로그램
 |09|[구르미](#team-09)| 소규모 스타트업이나 연구실의 클라우드 사용 시 발생하는 높은 비용 문제와 중앙 집중식 클라우드의 장애 및 확장성 문제를 해결하기 위해, 개인이 가진 유휴 자원을 서로 연결하여 저비용으로 운영 가능한 '뮤추얼 클라우드' 시스템을 설계하고 구현
 |10|[2ys](#team-10)| Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT          (산업용 IoT에서 보안상 안전하고 에너지 효율성을 최적화하여 실시간 작업 수행을 가능하게 하는 프레임워크)
@@ -76,15 +76,15 @@
 [Return TOP](#list-of-teamsprojects)
  
 # Team-07
-| (1) 과제명 |  [Post-merger Masquerade] 은하 병합 여부를 분류하는 멀티모달 AI 모델 연구 개발 |
+| (1) 과제명 |  Image-Exclusive Model for Galaxy Merger Classification: Training on Simulations and Inference on Observations |
 |:---  |---  |
 | (2) 팀 번호/이름 | 07-우주정복연구젝트 |
-| (3) 구성원 | 이한나(2271050): 리더,*역할,...* <br> 정은채(2271056): 팀원,*역할,....* <br> 정소은(2271053): 팀원,*역할,....* |
+| (3) 구성원 | 이한나(2271050): 리더, Classical ML 모델 학습, 시뮬레이션 데이터 전처리, imputation 타당성 실험 <br> 정은채(2271056): 팀원, 실험 리더, DeepLearning 모델 학습, 실제 관측 데이터 전처리, SHAP 시각화   <br> 정소은(2271053): 팀원, 논문 작성 리더, 실제 관측 데이터를 이용한 추론, TTA (도메인 적응) |
 | (4) 지도교수 | 이형준 교수 |
 | (5) 트랙  | 연구 |
-| (6) 과제 키워드 | Multi-modal AI, Space science, Galaxy Merge, Galaxy Classification |
-| (7) 과제 내용 요약 |   |
-| (8) 주요 Link |  |
+| (6) 과제 키워드 | Tabular model, galaxy merger classification, data imputation, domain adaptation |
+| (7) 과제 내용 요약 | 본 연구에서는 이미지를 완전히 배제하고, 은하의 분광·측광 물리량만을 활용하여 은하 병합 단계를 분류하는 Image-exclusive 모델을 제안한다. 본 모델은 IllustrisTNG 시뮬레이션에서 생성된 병합 단계 레이블을 학습 데이터로 사용하며, 정규화와 다중 대치법(MICE)을 통해 데이터 전처리를 수행한다. 이후 결정트리, 랜덤 포레스트, XGBoost, LightGBM, CatBoost, 로지스틱 회귀와 같은 전통적 머신러닝 기법 및 MLP, FT-Transformer, TabTransformer, TabM 앙상블 모델과 같은 딥러닝 기법을 비교하여 최적의 성능을 가진 모델을 선정한다. 또한, 학습된 모델을 전이 학습 기법을 통해 실제 관측 데이터인 Sloan Digital Sky Survey(SDSS)에 적용한다.  |
+| (8) 주요 Link | MICE : https://github.com/amices/mice<br> IllustrisTNG: https://www.tng-project.org <br> GradientBoost :https://projecteuclid.org/journals/annals-of-statistics/volume-29/issue-5/Greedy-function-approximation-A-gradient-boosting-machine/10.1214/aos/1013203451.full <br> XGBoost : https://github.com/dmlc/xgboost <br> LightGBM : https://github.com/microsoft/LightGBM <br> CatBoost : https://arxiv.org/abs/1706.09516 <br> DecisionTree : https://link.springer.com/article/10.1007/BF00116251 <br> FT-Transformer: https://arxiv.org/abs/2504.02211 <br> TabTransformer: https://arxiv.org/pdf/2012.06678 <br> TabM : https://arxiv.org/abs/2410.24210 |
  
 <br>
  
