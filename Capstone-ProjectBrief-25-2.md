@@ -226,11 +226,10 @@
 [Return TOP](#list-of-teamsprojects)
  
 # Team-17
-| (1) 과제명 |  전자 의료 기록(EHR) 기반 질병 예측 모델의 Source-free domain adaptation 적용 및 성능 비교 |
+| (1) 과제명 |  Source-free domain adaptation을 활용한 전자 의료 기록(EHR) 기반 질병 예측 모델의 병원 간 데이터 공유 한계 극복 및 성능 개선 |
 |:---  |---  |
 | (2) 팀 번호/이름 | 17-그린데빌 |
-| (3) 구성원 | 박선우(2171015): 리더, 데이터 전처리, 라벨링, 전반적인 깃허브 관리, SHOT 적용
- <br> 전지윤(2270068): 팀원, 데이터 전처리, Med-BERT fine-tuning 및 성능 평가, TENT 적용 <br> 유승혜(2190050): 팀원, 데이터 전처리, Med-BERT 사전학습, TENT 적용 |
+| (3) 구성원 | 박선우(2171015): 리더, 데이터 전처리, 라벨링, 전반적인 깃허브 관리, SHOT 적용 <br> 전지윤(2270068): 팀원, 데이터 전처리, Med-BERT fine-tuning 및 성능 평가, TENT 적용 <br> 유승혜(2190050): 팀원, 데이터 전처리, Med-BERT 사전학습, TENT 적용 |
 | (4) 지도교수 | 황의원 교수 |
 | (5) 트랙  | 연구 |
 | (6) 과제 키워드 | 질병 예측, 모델 비교, Source-Free Domain Adaptation (SFDA) |
