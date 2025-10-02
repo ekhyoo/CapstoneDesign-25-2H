@@ -6,7 +6,7 @@
 |04|[Typha](#team-04)| 암표 근절을 위한 DID(분산 신원 증명) 및 NFT 기반 티켓팅 시스템
 |06|[닌자토끼](#team-06)| 전통주 소비 입문자를 위한 AI 기반 전통주 큐레이션 서비스
 |07|[우주정복연구젝트](#team-07)| Image-Exclusive Model for Galaxy Merger Classification: Training on Simulations and Inference on Observations
-|08|[드랍더8bit](#team-08)| 아이와 부모가 함께 동화를 만들어가는 인터랙티브한 방식의 AI 기반 동화 생성 프로그램
+|08|[드랍더8bit](#team-08)| 이미지 보정 AI로 아이의 그림을 캐릭터로 바꾸고, 부모와 함께 동화를 만들어가는 서비스
 |09|[구르미](#team-09)| 소규모 스타트업이나 연구실의 클라우드 사용 시 발생하는 높은 비용 문제와 중앙 집중식 클라우드의 장애 및 확장성 문제를 해결하기 위해, 개인이 가진 유휴 자원을 서로 연결하여 저비용으로 운영 가능한 '뮤추얼 클라우드' 시스템을 설계하고 구현
 |10|[2ys](#team-10)| Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT          (산업용 IoT에서 보안상 안전하고 에너지 효율성을 최적화하여 실시간 작업 수행을 가능하게 하는 프레임워크)
 |11|[DevEwha](#team-11)| Serverless Architecture를 이용한 실시간 AI 추론 최적화
@@ -91,15 +91,15 @@
 [Return TOP](#list-of-teamsprojects)
  
 # Team-08
-| (1) 과제명 |  아이와 부모가 함께 동화를 만들어가는 인터랙티브한 방식의 AI 기반 동화 생성 프로그램 |
+| (1) 과제명 |  이미지 보정 AI로 아이의 그림을 캐릭터로 바꾸고, 부모와 함께 동화를 만들어가는 서비스 |
 |:---  |---  |
 | (2) 팀 번호/이름 | 08-드랍더8bit |
-| (3) 구성원 | 김혜원(2021070): 리더,*역할,...* <br> 조서정(2276305): 팀원,*역할,....* <br> 조수현(2276309): 팀원,*역할,....* |
+| (3) 구성원 | **김혜원(2021070) - 리더 Backend / AI**<br>시스템 설계: ERD 설계, API 명세 정의, 서비스 UI 디자인<br>구현:<br>- [BE] Story, Quiz, EasterEggLetter API 개발<br>- [AI] 줄거리/퀴즈 생성 AI(OpenAI), 이미지 생성 AI(ControlNet+Stable Diffusion, DALL·E) 개발<br>- [배포] EC2 + Nginx + Docker + GitHub Actions 이용한 배포 / RDS / S3<br><br>**조수현(2276309) - 팀원 Frontend / AI**<br>시스템 설계: 화면 플로우 설계 및 UI/UX 구조 정의, 컴포넌트 구조 설계<br>구현:<br>- [FE] 페이지 UI 개발, 백엔드 API 연동 및 데이터 바인딩, 프론트엔드 배포<br>- [AI] YOLOv8 객체 탐지 모델 파인튜닝 및 AI 개발<br><br>**조서정(2276305) - 팀원 Backend / AI**<br>시스템 설계: ERD 설계, API 명세 정의, 서비스 UI 디자인<br>구현:<br>- [BE] 사용자 인증/로그인 기능 구현, Profile, EasterEggVoice, Voice, 책장, 알림 API 개발<br>- [AI] ElevenLabs 음성 복제 AI 개발, YOLO API 개발 |
 | (4) 지도교수 | 심재형 교수 |
 | (5) 트랙  | 산학 |
-| (6) 과제 키워드 | 동화 생성, 인터랙티브 스토리텔링, 디지털 책장 |
-| (7) 과제 내용 요약 |   |
-| (8) 주요 Link |  |
+| (6) 과제 키워드 | 동화 생성, 이미지 보정 AI, AI 음성 나레이션, 인터랙티브 스토리텔링, 디지털 책장 |
+| (7) 과제 내용 요약 | 저희는 이미지 생성 AI(Stable Diffusion + ControlNet + LoRA)를 통해 아이의 그림을 캐릭터로 발전시키고, 음성 복제 AI(ElevenLabs)와 객체 인식 기반 이스터에그(YOLOv8)를 결합하여 부모와 아이가 함께 상호작용하는 **인터랙티브 동화 서비스**를 개발하고자 합니다. |
+| (8) 주요 Link | https://github.com/DropThe8bit  |
  
 <br>
  
