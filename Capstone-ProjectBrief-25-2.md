@@ -377,14 +377,14 @@
 [Return TOP](#list-of-teamsprojects)
  
 # Team-28
-| (1) 과제명 |  ChatGPT API와 RAG, CBT 상담 기법 기반 상담형 챗봇을 통한, 20대 여성 대상 충동 소비 습관 교정 코칭 서비스 |
+| (1) 과제명 |  ChatGPT API와 RAG, 인지행동치료 기반 상담형 챗봇을 통한, 20대 여성 대상 충동 소비 습관 교정 코칭 서비스 |
 |:---  |---  |
 | (2) 팀 번호/이름 | 28-e스타트 |
-| (3) 구성원 | 유희정(1976250): 리더,*역할,...* <br> 이경림(1871033): 팀원,*역할,....* <br> 최윤우(2176387): 팀원,*역할,....* |
+| (3) 구성원 | 유희정(1976250): 리더,기획,프론트엔드(안드로이드) 설계 및 구현, RAG 및 챗봇 설계 및 구현, 도메인 관련 논문 조사 <br> 최윤우(2176387): 팀원,백엔드(FastApi), DB(Firestore) 구조 설계 <br> 이경림(1871033): 팀원, 기획, 제출 과제 준비 |
 | (4) 지도교수 | 오세은 교수 |
 | (5) 트랙  | 산학 |
 | (6) 과제 키워드 | 챗봇, RAG, ChatGPT API, 충동 소비(Impulse Buying) CBT(Cognitive Behavioral Therapy) |
-| (7) 과제 내용 요약 | 본 프로젝트는 20대 여성의 충동 소비 습관 교정을 목표로 하는 상담형 챗봇 코칭 서비스입니다. 기존 가계부/예산 앱이 가진 “기록·알림” 한계를 넘어, ChatGPT API 기반 대화형 상담, RAG(연구지식 참조), CBT 상담 기법을 결합합니다. <br> 사용자는 일일 소비 리포트를 보고 충동 소비 여부를 체크한 뒤 챗봇 상담을 진행합니다. 상담은 “소비 원인 탐색 → 대체 행동 제안 → 회고·요약” 구조이며, 결과는 저장되어 주간/월간 리포트로 제공됩니다. <br> 이를 통해 사용자는 소비 습관을 인지 → 교정 → 유지하는 선순환을 경험하게 되며, 장기적인 습관 형성에 기여합니다. |
+| (7) 과제 내용 요약 | 본 프로젝트는 20대 여성의 충동 소비 습관을 교정하기 위한 CBT(인지행동치료) 기반 상담형 코칭 앱입니다.<br>**Mitchell et al.(2006)**<sup>1</sup>과 **Leite et al.(2014)**<sup>2</sup>의 연구를 참고한 10주차 CBT 프로토콜을 바탕으로, LangGraph를 통해 실제 상담 과정을 대화형 챗봇으로 구현했습니다. 앱은 세 가지 세션으로 구성됩니다. <br>1. 주간 상담 세션: 각 주차별 CBT 주제(예: Psycho-education, Money Management, Cognitive Restructuring 등)에 따라 사용자의 소비 경험을 탐색하고, 감정·사고·행동 패턴을 재구조화하며 과제를 제시합니다.<br>2. 일일 체크 세션: 주간 상담에서 제시된 과제의 수행을 돕고, 일상 속 소비 충동과 대처 전략 적용 여부를 짧게 점검합니다.<br>3. 일반 FAQ 세션: 소비습관 관련 질문에 대해 RAG 기반 근거 응답을 제공합니다.<br>RAG에는 인지행동치료의 개념, 충동소비와 강박적소비장애의 연관성, 강박적소비장애에 대한 인지행동치료와 그 사례에 대한 논문, 주차별 상담 지침이 포함되어 있습니다.<br>이 서비스를 통해 사용자는 충동소비의 심리적 원인을 이해하고, 스스로의 소비 패턴을 점진적으로 교정할 수 있습니다.<br><br>1. Mitchell, J. E., Burgard, M., Faber, R., Crosby, R. D., & de Zwaan, M. (2006). Cognitive behavioral therapy for compulsive buying disorder. Behaviour Research and Therapy, 44(12), 1859-1865. https://doi.org/10.1016/j.brat.2005.12.009<br>2. Leite, P. L., Pereira, V. M., Nardi, A. E., & Silva, A. C. (2014). Psychotherapy for compulsive buying disorder: A systematic review. Psychiatry Research, 219(3), 411-419. https://doi.org/10.1016/j.psychres.2014.05.037 |
 | (8) 주요 Link | https://github.com/2025-eStart/TETS |
  
 <br>
