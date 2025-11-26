@@ -106,14 +106,14 @@
 [Return TOP](#list-of-teamsprojects)
  
 # Team-09
-| (1) 과제명 |  2P 기반 분산형 클라우드를 이용한 소규모 조직의 유휴 컴퓨팅 자원 공유 시스템(A P2P-based Distributed Cloud System for Sharing Idle Computing Resources in Small-scale Organizations) |
+| (1) 과제명 |  P2P 기반 분산형 클라우드를 이용한 소규모 조직의 유휴 컴퓨팅 자원 공유 시스템(A P2P-based Distributed Cloud System for Sharing Idle Computing Resources in Small-scale Organizations) |
 |:---  |---  |
 | (2) 팀 번호/이름 | 09-구르미 |
-| (3) 구성원 | 금채원(2276029): 팀장, 실험 환경 구축, 아키텍처 성능 실험, 문서화·산출물 관리, 시뮬레이션 실행 <br> 이서영(2276218): 팀원, 아키텍처 설계 주도, 실험 환경 구축, 설계 검토·피드백, 시뮬레이션 실행<br> 송예린(2171023): 팀원, 실험 환경 구축, 성능 실험,  성능 분석, 기술 검증, 그래프 도출, 시뮬레이션 실행 |
+| (3) 구성원 | 금채원(2276029): 팀장, DHT 모듈 구현, 실험 환경 구축, 아키텍처 성능 실험 및 분석, 문서화·산출물 관리 <br> 이서영(2276218): 팀원, 아키텍처 설계 주도, 실험 환경 구축, 설계 검토·피드백<br> 송예린(2171023): 팀원, 시스템 핵심기능 전반 구현, 실험 환경 구축, 아키텍처 성능 실험 및 분석, 그래프 도출, 시뮬레이션 실행 |
 | (4) 지도교수 | 반효경 교수 |
 | (5) 트랙  | 연구 |
-| (6) 과제 키워드 | Mutual Cloud, Resource Sharing, P2P 네트워크, DHT 네트워크, SPOF 문제해결 |
-| (7) 과제 내용 요약 | 클라우드 퍼스트의 비용·장애 확산 문제와 온프레미스(on-premise)의 과다 프로비저닝(over-provisioning) 간 격차를 해소하기 위해, 중앙 서버 없이 노드가 상태를 공유하고 작업을 자율적으로 탐색·분배·복구하는 **P2P 기반 분산자원 관리 Mutual Cloud 아키텍처**를 설계·구현한다. 이 방식은 단일 장애점(SPOF,Single Point of Failure)을 제거해 장애를 국소화하고, 조직 내 유휴 온프레미스 자원을 공유 풀로 묶어 활용률을 높이며 총소유비용(TCO,Total Cost of Ownership)를 낮춘다. 프로토타입과 시뮬레이션에서 네트워크가 커져도 지연·처리량의 안정성이 유지되고 부분 장애 시 빠르게 복구됨을 확인해, 소규모 조직에 경제적이고 안정적인 인프라 대안임을 입증한다.   |
+| (6) 과제 키워드 | Mutual Cloud, Resource Sharing, P2P Systems, Distributed Hash Table (DHT), Single Point of Failure (SPOF) Mitigation |
+| (7) 과제 내용 요약 | 기존 클라우드 및 온프레미스 자원관리 시스템은 중앙 오케스트레이터에 대한 구조적 의존성으로 인해 단일 장애점(SPOF)과 전역적 장애 확산 문제가 발생한다. 본 연구는 이를 해결하기 위해 중앙 조정 없이 노드가 상태를 분산 공유하고 작업을 자율적으로 탐색·선점·복구하는 P2P 기반 자원관리 아키텍처 Mutual Cloud를 제안한다. 제안된 구조는 작업 메타데이터를 DHT로 분산 저장하고, lease 기반 경쟁 제어를 통해 작업 선점과 재할당을 조정함으로써 중앙 장애 지점을 제거한다. 프로토타입 구현 및 비교 실험을 통해 Mutual Cloud는 일부 노드 장애 상황에서도 전역 스톨 없이 빠른 재할당이 이루어지며, Kubernetes Job 모델 대비 소규모 환경에서 더 안정적인 복구 지연 특성을 보임을 확인하였다. 이를 통해 Mutual Cloud는 작은 규모의 조직에서도 중앙 관리 시스템 없이 안정성을 확보할 수 있는 경량 분산자원 관리 대안임을 입증한다.    |
 | (8) 주요 Link | **Github(코드):** https://github.com/Team-Gurumi/MC |
  
 <br>
