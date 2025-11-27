@@ -7,7 +7,7 @@
 |06|[닌자토끼](#team-06)| 전통주 소비 입문자를 위한 AI 기반 전통주 큐레이션 서비스
 |07|[우주정복연구젝트](#team-07)| Image-Exclusive Model for Galaxy Merger Classification: Training on Simulations and Inference on Observations
 |08|[드랍더8bit](#team-08)| 이미지 보정 AI로 아이의 그림을 캐릭터로 바꾸고, 부모와 함께 동화를 만들어가는 서비스
-|09|[구르미](#team-09)| 소규모 스타트업이나 연구실의 클라우드 사용 시 발생하는 높은 비용 문제와 중앙 집중식 클라우드의 장애 및 확장성 문제를 해결하기 위해, 개인이 가진 유휴 자원을 서로 연결하여 저비용으로 운영 가능한 '뮤추얼 클라우드' 시스템을 설계하고 구현
+|09|[구르미](#team-09)| Mutual Cloud: A P2P Decentralized Control Plane Framework for SPOF-resilient Distributed Resource Management (단일 장애점 없는 P2P 분산 자원 관리를 위한 탈중앙 제어 평면 프레임워크)
 |10|[2ys](#team-10)| Secure and Energy-Efficient Resource Optimization Framework for Real-time Task Execution in Industrial IoT          (산업용 IoT에서 보안상 안전하고 에너지 효율성을 최적화하여 실시간 작업 수행을 가능하게 하는 프레임워크)
 |11|[DevEwha](#team-11)| 서버리스 LLM 콜드스타트 최적화: 프루닝된 모델 우선 서빙과 점진적 전체 모델 복구
 |12|[내가그린](#team-12)| AI를 활용하여 소도시 여행 추천과 지역 축제 정보를 제공하고, 소상공인들의 온/오프라인 판매를 돕는 통합 모바일 플랫폼
