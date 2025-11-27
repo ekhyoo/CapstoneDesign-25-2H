@@ -377,14 +377,14 @@
 [Return TOP](#list-of-teamsprojects)
  
 # Team-28
-| (1) 과제명 |  ChatGPT API와 RAG, 인지행동치료 기반 상담형 챗봇을 통한, 20대 여성 대상 충동 소비 습관 교정 코칭 서비스 |
+| (1) 과제명 |  20대 여성의 충동·습관적 소비 교정을 위한 인지행동치료 기반 LangGraph 상담 챗봇  |
 |:---  |---  |
 | (2) 팀 번호/이름 | 28-e스타트 |
-| (3) 구성원 | 유희정(1976250): 리더,기획,프론트엔드(안드로이드) 설계 및 구현, RAG 및 챗봇 설계 및 구현, 도메인 관련 논문 조사 <br> 최윤우(2176387): 팀원,백엔드(FastApi), DB(Firestore) 구조 설계 <br> 이경림(1871033): 팀원, 기획, 제출 과제 준비 |
+| (3) 구성원 | 유희정(1976250): 리더,기획,프론트엔드, 백엔드, 도메인 관련 논문 조사 <br> 최윤우(2176387): 팀원,  DB(Firestore) 구조 설계 <br> 이경림(1871033): 팀원, 기획, 제출 과제 준비 |
 | (4) 지도교수 | 오세은 교수 |
 | (5) 트랙  | 산학 |
-| (6) 과제 키워드 | 챗봇, RAG, ChatGPT API, 충동 소비(Impulse Buying) CBT(Cognitive Behavioral Therapy) |
-| (7) 과제 내용 요약 | 본 프로젝트는 20대 여성의 충동 소비 습관을 교정하기 위한 CBT(인지행동치료) 기반 상담형 코칭 앱입니다.<br>**Mitchell et al.(2006)**<sup>1</sup>과 **Leite et al.(2014)**<sup>2</sup>의 연구를 참고한 10주차 CBT 프로토콜을 바탕으로, LangGraph를 통해 실제 상담 과정을 대화형 챗봇으로 구현했습니다. 앱은 세 가지 세션으로 구성됩니다. <br>1. 주간 상담 세션: 각 주차별 CBT 주제(예: Psycho-education, Money Management, Cognitive Restructuring 등)에 따라 사용자의 소비 경험을 탐색하고, 감정·사고·행동 패턴을 재구조화하며 과제를 제시합니다.<br>2. 일일 체크 세션: 주간 상담에서 제시된 과제의 수행을 돕고, 일상 속 소비 충동과 대처 전략 적용 여부를 짧게 점검합니다.<br>3. 일반 FAQ 세션: 소비습관 관련 질문에 대해 RAG 기반 근거 응답을 제공합니다.<br>RAG에는 인지행동치료의 개념, 충동소비와 강박적소비장애의 연관성, 강박적소비장애에 대한 인지행동치료와 그 사례에 대한 논문, 주차별 상담 지침이 포함되어 있습니다.<br>이 서비스를 통해 사용자는 충동소비의 심리적 원인을 이해하고, 스스로의 소비 패턴을 점진적으로 교정할 수 있습니다.<br><br>1. Mitchell, J. E., Burgard, M., Faber, R., Crosby, R. D., & de Zwaan, M. (2006). Cognitive behavioral therapy for compulsive buying disorder. Behaviour Research and Therapy, 44(12), 1859-1865. https://doi.org/10.1016/j.brat.2005.12.009<br>2. Leite, P. L., Pereira, V. M., Nardi, A. E., & Silva, A. C. (2014). Psychotherapy for compulsive buying disorder: A systematic review. Psychiatry Research, 219(3), 411-419. https://doi.org/10.1016/j.psychres.2014.05.037 |
+| (6) 과제 키워드 | LangGraph 챗봇, RAG, 인지행동치료(CBT), 충동적·습관적 소비(IB/CB) 교정 |
+| (7) 과제 내용 요약 | **\[개요\]** <br>충동적·습관적 소비로 스트레스를 겪는 20대 여성을 대상으로 한 CBT 기반 상담형 코칭 앱입니다. Mitchell et al.(2006)과 Leite et al.(2014)의 연구를 참고한 10주 동안의 인지행동치료 상담 모델을 바탕으로, LangGraph를 통해 실제 상담 과정을 대화형 챗봇으로 구현했습니다.<br><br> **\[주요기능\]**<br>1. **주간 상담 세션**: 10주 동안 yaml 파일에 미리 정해둔 각 주차별 상담 내용에 따라 인지행동치료(CBT) 기반 상담을 진행하고 과제를 제시합니다.<br>2. **일반 FAQ 세션**: 소비습관 관련 질문에 대해 RAG 기반 근거 응답을 제공합니다. RAG에는 강박적소비장애의 치료법과 충동소비와 강박적소비장애의 연관성에 대한 논문이 포함되어 있습니다.<br>3. **푸시 리마인더**: 사용자가 주간 상담을 꾸준히 받고, 상담에서 제시된 과제를 생활 속에서 실천할 수 있도록 푸시 알림을 보냅니다.<br><br> **\[기대효과\]**<br>1. 소비 습관에 대해 받는 스트레스 경감<br>2. 소비 습관이 나아졌다는 인식<br>3. 비필수 소비의 점진적 감소 |
 | (8) 주요 Link | https://github.com/2025-eStart/TETS |
  
 <br>
