@@ -109,7 +109,7 @@
 | (1) 과제명 | Mutual Cloud: A P2P Decentralized Control Plane Framework for SPOF-resilient Distributed Resource Management (단일 장애점 없는 P2P 분산 자원 관리를 위한 탈중앙 제어 평면 프레임워크) |
 |:---  |---  |
 | (2) 팀 번호/이름 | 09-구르미 |
-| (3) 구성원 | 금채원(2276029): 팀장, DHT 네트워크 모듈 개발, 실험 환경 구축, 아키텍처 성능 실험 및 분석, 문서화·산출물 관리 <br> 이서영(2276218): 팀원, 아키텍처 설계 총괄, 실험 환경 구축, 설계 검토 및 피드백<br> 송예린(2171023): 팀원, ​시스템 핵심 기능 개발 (DHT 외 전체 기능 구현), 실험 환경 구축, 아키텍처 성능 실험 및 분석, 성능 데이터 시각화 |
+| (3) 구성원 | 금채원(2276029): 팀장, DHT 네트워크 모듈 개발, 실험 환경 구축, 아키텍처 성능 실험 및 분석, 문서화·산출물 관리 <br> 이서영(2276218): 팀원, 아키텍처 설계 총괄, 실험 환경 구축, 설계 검토 및 피드백<br> 송예린(2171023): 팀원, ​시스템 총괄 개발 (DHT 외 전체 기능 구현), 실험 환경 구축, 아키텍처 성능 실험 및 분석, 성능 데이터 시각화 |
 | (4) 지도교수 | 반효경 교수 |
 | (5) 트랙  | 연구 |
 | (6) 과제 키워드 | Mutual Cloud, Resource Sharing, P2P Systems, Distributed Hash Table (DHT), Single Point of Failure (SPOF) Mitigation |
