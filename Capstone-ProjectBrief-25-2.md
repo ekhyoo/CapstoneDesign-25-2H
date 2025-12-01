@@ -79,12 +79,12 @@
 | (1) 과제명 |  Image-Exclusive Model for Galaxy Merger Classification: Training on Simulations and Inference on Observations |
 |:---  |---  |
 | (2) 팀 번호/이름 | 07-우주정복연구젝트 |
-| (3) 구성원 | 이한나(2271050): 리더, Classical ML 모델 학습, 시뮬레이션 데이터 전처리, imputation 타당성 실험 <br> 정은채(2271056): 팀원, 실험 리더, DeepLearning 모델 학습, 실제 관측 데이터 전처리, SHAP 시각화   <br> 정소은(2271053): 팀원, 논문 작성 리더, 실제 관측 데이터를 이용한 추론, TTA (도메인 적응) |
+| (3) 구성원 | 이한나(2271050): 리더, Classical ML 모델 학습, 시뮬레이션 데이터 전처리, imputation 타당성 실험 <br> 정은채(2271056): 팀원, 실험 리더, DeepLearning 모델 학습, 실제 관측 데이터 전처리, SHAP 시각화   <br> 정소은(2271053): 팀원, 논문 작성 리더, 실제 관측 데이터를 이용한 추론, 데이터 분포 및 결과 해석을 위한 시각화 |
 | (4) 지도교수 | 이형준 교수 |
 | (5) 트랙  | 연구 |
-| (6) 과제 키워드 | Tabular model, galaxy merger classification, data imputation, domain adaptation |
-| (7) 과제 내용 요약 | 본 연구에서는 이미지를 완전히 배제하고, 은하의 분광·측광 물리량만을 활용하여 은하 병합 단계를 분류하는 Image-exclusive 모델을 제안한다. 본 모델은 IllustrisTNG 시뮬레이션에서 생성된 병합 단계 레이블을 학습 데이터로 사용하며, 정규화와 다중 대치법(MICE)을 통해 데이터 전처리를 수행한다. 이후 결정트리, 랜덤 포레스트, XGBoost, LightGBM, CatBoost, 로지스틱 회귀와 같은 전통적 머신러닝 기법 및 MLP, FT-Transformer, TabTransformer, TabM 앙상블 모델과 같은 딥러닝 기법을 비교하여 최적의 성능을 가진 모델을 선정한다. 또한, 학습된 모델을 전이 학습 기법을 통해 실제 관측 데이터인 Sloan Digital Sky Survey(SDSS)에 적용한다.  |
-| (8) 주요 Link | MICE : https://github.com/amices/mice<br> IllustrisTNG: https://www.tng-project.org <br> GradientBoost :https://projecteuclid.org/journals/annals-of-statistics/volume-29/issue-5/Greedy-function-approximation-A-gradient-boosting-machine/10.1214/aos/1013203451.full <br> XGBoost : https://github.com/dmlc/xgboost <br> LightGBM : https://github.com/microsoft/LightGBM <br> CatBoost : https://arxiv.org/abs/1706.09516 <br> DecisionTree : https://link.springer.com/article/10.1007/BF00116251 <br> FT-Transformer: https://arxiv.org/abs/2504.02211 <br> TabTransformer: https://arxiv.org/pdf/2012.06678 <br> TabM : https://arxiv.org/abs/2410.24210 |
+| (6) 과제 키워드 | Tabular model, galaxy merger classification, data imputation |
+| (7) 과제 내용 요약 | 본 연구에서는 이미지를 완전히 배제하고, 은하의 물리량만을 활용하여 은하 병합 단계를 분류하는 Image-exclusive 모델을 제안한다. 본 모델은 IllustrisTNG 시뮬레이션에서 생성된 병합 단계 레이블을 학습 데이터로 사용하며, 정규화와 Imputation(KNN)을 통해 데이터 전처리를 수행한다. 이후 DecisionTree, Randomforest, CatBoost, GradientBoost, XGBoost, LightGBM, LogistRegression와 같은 전통적 머신러닝 기법 및 MLP, FT-Transformer, TabTransformer, TabM 앙상블 모델과 같은 딥러닝 기법을 비교하여 최적의 성능을 가진 모델을 선정한다. 또한, 학습된 모델을 실제 관측 데이터인 DESI에 적용하여 은하 병합 단계 라벨링 결과를 기반으로 확장 카탈로그를 구축한다. |
+| (8) 주요 Link | IllustrisTNG: https://www.tng-project.org <br> GradientBoost :https://projecteuclid.org/journals/annals-of-statistics/volume-29/issue-5/Greedy-function-approximation-A-gradient-boosting-machine/10.1214/aos/1013203451.full <br> XGBoost : https://github.com/dmlc/xgboost <br> LightGBM : https://github.com/microsoft/LightGBM <br> CatBoost : https://arxiv.org/abs/1706.09516 <br> DecisionTree : https://link.springer.com/article/10.1007/BF00116251 <br> FT-Transformer: https://arxiv.org/abs/2504.02211 <br> TabTransformer: https://arxiv.org/pdf/2012.06678 <br> TabM : https://arxiv.org/abs/2410.24210 |
  
 <br>
  
